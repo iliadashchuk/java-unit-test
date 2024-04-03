@@ -9,7 +9,7 @@ public void checkIsAdultWhenAgeIsMoreThan18True() {
 public void checkIsAdultWhenAgeIsLessThan18False(){
     Program program = new Program();
     boolean isAdult = program.checkIsAdult(17);
-    assertEquals("Должно вернуться true, так как пользователь совершеннолетний", false, isAdult);
+    assertEquals("Должно вернуться false, так как пользователь несовершеннолетний", false, isAdult);
     
 }
 
